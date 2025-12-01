@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Grenze+Gotisch:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.ballet {
+    font-family: 'Ballet', sans-serif;
+}
+
+.grenze {
+    font-family: 'Grenze Gotisch', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
