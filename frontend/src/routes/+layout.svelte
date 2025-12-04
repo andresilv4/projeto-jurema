@@ -6,7 +6,6 @@
 	import favicon from "$lib/assets/favicon.svg";
 	import Header from "../components/Header.svelte";
 
-	let { children } = $props();
 </script>
 
 <svelte:head>
@@ -14,5 +13,5 @@
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </svelte:head>
 
-<Header></Header>
-{@render children()}
+<Header />
+<slot/>
